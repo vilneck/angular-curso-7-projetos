@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CalculadoraModule } from './calculadora';
 import { CalendarioModule } from './calendario/calendario.module';
+import { ConversorMoedasModule } from './conversor-moedas/conversor-moedas.module';
 import { JogoDaVelhaModule } from './jogo-da-velha/jogo-da-velha.module';
 import { TarefasModule } from './tarefas/tarefas.module';
 
@@ -18,7 +19,8 @@ import { TarefasModule } from './tarefas/tarefas.module';
     CalculadoraModule,
     CalendarioModule,
     TarefasModule,
-    JogoDaVelhaModule
+    JogoDaVelhaModule,
+    ConversorMoedasModule
   ],
   providers: [],
   bootstrap: [AppComponent]
