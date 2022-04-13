@@ -8,10 +8,11 @@ import { CalendarioModule } from './calendario/calendario.module';
 import { ConversorMoedasModule } from './conversor-moedas/conversor-moedas.module';
 import { JogoDaVelhaModule } from './jogo-da-velha/jogo-da-velha.module';
 import { TarefasModule } from './tarefas/tarefas.module';
+import { DataBrPipe } from './pipes/data-br.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent,  
+    AppComponent,
   ],
   imports: [
     BrowserModule,
